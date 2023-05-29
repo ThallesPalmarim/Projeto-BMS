@@ -75,6 +75,20 @@
 	grid-template-columns:1fr 3fr;
 	}
 	
+	#cores{
+	margin: 20px;
+	}
+	
+	#minimo, #maximo{
+	width:40px;
+	}
+	
+	input::-webkit-outer-spin-button,
+	input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+	}
+	
 	aside{
 	border: solid;
 	border-color: #D8976B;
@@ -89,6 +103,7 @@
 	text-decoration:none;
 	color:black;
 	}
+	
 	
 	#filtro{
 	background-color: #FFB481;
@@ -192,7 +207,7 @@
 		<a href="#" class="tamanho">38</a>
 		<a href="#" class="tamanho">39</a>
 		<a href="#" class="tamanho">40</a>
-		<a href="#" class="outros">Outros Tamanhos</a>
+		<a href="#" class="outros">Outros</a>
 		<nav id="cores">
 		<label for="modelo">Modelo:</label>
 		<select name="modelo" id="modelo">
@@ -206,6 +221,10 @@
 		</select>
 		</nav>
 		<h4>Preco</h4>
+		<label for="minimo">Min:</label>
+		<input type="number" name="minimo" id="minimo">
+		<label for="maximo">Max:</label>
+		<input type="number" name="maximo" id="maximo">
 		<nav id="descontos">
 		<h4>Descontos</h4>
 		<input type="radio" id="dez" name="desconto" value="ate10"><label for="dez">Ate 10%</label><br>
