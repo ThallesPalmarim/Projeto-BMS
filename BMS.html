@@ -5,184 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bruna Marques Store</title>
-	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
-
-	body{
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	height:200vh;
-	}
-	
-	header{
-	display: grid;
-	grid-template-columns:1fr 5fr 1fr 0.25fr 1fr;
-	background-color: #FFCAA6;
-	}
-
-	#logo{
-	margin-right:200px;
-	}
-	
-	#Bbusca{
-	margin-right:10px;
-	}
-
-	#busca{
-		width: 400px;
-		margin-right: 5px;
-	}
-
-	header nav{
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	h2{
-		font-family: 'Island Moments', cursive;
-		font-size: 50px;
-	}
-	
-	.linkcima{
-	margin-right:50px;
-	}
-	/*
-	#carrossel{
-		overflow:hidden;
-		position: relative;
-	}
-
-	.slide{
-		position: absolute;
-		opacity: 0;
-		transition: opacity 0.5 ease-in-out;
-	}
-
-	.slide.active{
-		opacity: 1;
-	}
-
-	.slide img{
-		object-fit: cover;
-	}
-	*/
-	#cima a{
-	text-decoration: none;
-	color:black;
-	}
-
-	.slide{
-		border-radius: 50%;
-	}
-	
-	#cima a:hover{
-	color:white;
-	}
-	
-	#cima{
-	background-color: #FFCAA6;
-	width:100%;
-	height:25px;
-	text-align:center;
-	}
-	
-	
-	#oferta{
-	display:grid;
-	grid-template-columns:1fr 1fr 1fr;
-	}
-
-	.img{
-	border-radius: 50%;
-	justify-self: center;
-	}
-
-	#oferta1, #oferta2, #oferta3{
-	border-radius:10px;
-	border: solid;
-	border-color: #D8976B;
-	}
-	
-	#oferta1{
-	height:210px;
-	width:300px;
-	background-color:white;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	align-items: center;
-	}
-
-	p{
-		font-size: 15px;
-	}
-	
-	#oferta2{
-	height:210px;
-	width:300px;
-	background-color:white;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	align-items: center;
-	}
-	
-	#oferta3{
-	height:210px;
-	width:300px;
-	background-color:white;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	align-items: center;
-	}
-	
-	#newsletter{
-	width:100%;
-	height: 80px;
-	margin: 20px 0 20px 0;
-	background-color: #FFDFC9;
-	text-align: center;
-	}
-	
-	footer{
-	background-color: #FFDFC9;
-	width:100%;
-	height: 150px;
-	display:grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	}
-	
-	
-	.footer{
-		text-align: center;
-	}
-
-	.footer a{
-		text-decoration: none;
-		color: black;
-	}
-
-	.footer a:hover{
-		color: purple;
-	}
-	
-	h3{
-	color: #D8976B;
-	}
-	
-	::placeholder{
-	text-align: center;
-	}
-	</style>
+	<link href="style/style.css" rel="stylesheet">
 	</head>
-	<body>
+<body>
 	<header>
-	<img src="" alt="Logo" id="logo">
-	<nav>
-		<input type="text" id="busca" placeholder="O que voce procura?">
-		<button id="Bbusca">Buscar</button>
-	</nav>
-	<img src="" alt="Carrinho de compras">
-	<button>Login</button>
-	<img src="" alt="Foto do usuario">
+		<img src="imagens/BMStore.png" alt="Logo" id="logo">
+		<nav>
+			<input type="text" id="busca" placeholder="O que voce procura?">
+			<button id="Bbusca">Buscar</button>
+		</nav>
+			<img src="" alt="Carrinho de compras">
+			<button>Login</button>
+			<img src="" alt="Foto do usuario">
 	</header>
 	<nav id="cima">
       <a href="#" class="linkcima">Categorias</a><a href="#" class="linkcima">Ofertas</a><a href="#" class="linkcima">Mais Vendidos</a><a href="#" class="linkcima">Atendimento</a>
@@ -191,95 +25,98 @@
 		<a href="#"><img src="imagens/sapato.jfif" class="slide" alt="Imagem 1"></a>
 		<a href="#"><img src="imagens/sapato2.jfif" class="slide" alt="Imagem 2"></a>
 		<a href="#"><img src="imagens/sapato3.jfif" class="slide" alt="Imagem 3"></a>
+		
 		<h2>Mais vendidas</h2>
+		
 		<a href="#"><img src="imagens/carteira1.jpg" alt="mais vendido1"></a>
 		<a href="#"><img src="imagens/carteira2.jpg" alt="mais vendido2"></a>
 		<a href="#"><img src="imagens/carteira3.jpg" alt="mais vendido3"></a>
 		
 		<h2>Ofertas</h2>
 		<div id="oferta">
-		<nav id="oferta1">
-		<a href="#"><img src="imagens/bolsamarrom.jpg" class="img" alt="oferta1"></a>
-		<p>De: R$89,99<br>
-		Por:R$69,99<br>
-		Bolsa com alça regulável.<br>
-		Clique no produto para continuar a comprar</p>
-		</nav>
+			<nav id="oferta1">
+				<a href="#"><img src="imagens/bolsamarrom.jpg" class="img" alt="oferta1"></a>
+				<p>De: R$89,99<br>
+				Por:R$69,99<br>
+				Bolsa com alça regulável.<br>
+				Clique no produto para continuar a comprar</p>
+			</nav>
+			
+			<nav id="oferta2">
+				<a href="#"><img src="imagens/bolsabranca.jpg" class="img" alt="oferta2"></a>
+				<p>De: R$--,--
+				Por:R$--,--
+				Descricao do produto
+				Clique no produto para continuar a comprar</p>
+			</nav>
 		
-		<nav id="oferta2">
-		<a href="#"><img src="imagens/bolsabranca.jpg" class="img" alt="oferta2"></a>
-		<p>De: R$--,--
-		Por:R$--,--
-		Descricao do produto
-		Clique no produto para continuar a comprar</p>
-		</nav>
-	
-		<nav id="oferta3">
-		<a href="#"><img src="imagens/bolsalaranja.jpg" class="img" alt="oferta3"></a>
-		<p>De: R$--,--
-		Por:R$--,--
-		Descricao do produto
-		Clique no produto para continuar a comprar</p>
-		</nav>
+			<nav id="oferta3">
+				<a href="#"><img src="imagens/bolsalaranja.jpg" class="img" alt="oferta3"></a>
+				<p>De: R$--,--
+				Por:R$--,--
+				Descricao do produto
+				Clique no produto para continuar a comprar</p>
+			</nav>
 		</div>
+
 		<nav id="newsletter">
-		<h3>Inscreva-se para receber nossa newsletter:</h3>
-		<form method="post" action="">
-		<label for="nome">Nome: </label>
-		<input type="text" name="nome" id="nome" minlength="2"  maxlength="45" required placeholder="Seu nome">
-		<label for="email">E-mail:</label>
-		<input type="email" name="email" id="email" maxlength="100" placeholder="Seu e-mail" required>
-		<button>Enviar</button>
+			<h3>Inscreva-se para receber nossa newsletter:</h3>
+			<form method="post" action="">
+			<label for="nome">Nome: </label>
+			<input type="text" name="nome" id="nome" minlength="2"  maxlength="45" required placeholder="Seu nome">
+			<label for="email">E-mail:</label>
+			<input type="email" name="email" id="email" maxlength="100" placeholder="Seu e-mail" required>
+			<button>Enviar</button>
 		</nav>
 		
 		<footer>
 		
-		<nav class="footer">
-		<h3>Departamentos</h3>
-		<a href="#">Bolsas</a><br>
-		<a href="#">Calcados</a><br>
-		<a href="#">Carteiras</a><br>
-		</nav>
+			<nav class="footer">
+				<h3>Departamentos</h3>
+				<a href="#">Bolsas</a><br>
+				<a href="#">Calcados</a><br>
+				<a href="#">Carteiras</a><br>
+			</nav>
 	
-		<nav class="footer">
-		<h3>Institucional</h3>
-		<a href="#">Sobre a Bruna Marques</a><br>
-		<a href="#">Fornecedores</a><br>
-
-		</nav>
-	
-		<nav class="footer">
-		<h3>Atendimento ao Cliente</h3>
-		<a href="#">Fale com a gente</a><br>
-		<a href="#">Nossos canais de atendimento</a><br>
-		<a href="#">Trocas e Devolucoes</a><br>
-		</nav>
-	
-		<nav class="footer">
-		<h3>Trabalhe conosco</h3>
-		<a href="#">Seja modelo</a>
-		</nav>
+			<nav class="footer">
+				<h3>Institucional</h3>
+				<a href="#">Sobre a Bruna Marques</a><br>
+				<a href="#">Fornecedores</a><br>
+			</nav>
+		
+			<nav class="footer">
+				<h3>Atendimento ao Cliente</h3>
+				<a href="#">Fale com a gente</a><br>
+				<a href="#">Nossos canais de atendimento</a><br>
+				<a href="#">Trocas e Devolucoes</a><br>
+			</nav>
+		
+			<nav class="footer">
+				<h3>Trabalhe conosco</h3>
+				<a href="#">Seja modelo</a>
+			</nav>
+		</footer>
 		<!--
 		<script>
-		const slides = document.querySelectorAll('.slide');
-		let currentSlide = 0;
-		
-		function showSlide(slideIndex) {
-		  slides.forEach((slide) => {
-			slide.classList.remove('active');
-		  });
-		
-		  slides[slideIndex].classList.add('active');
-		}
-		
-		function nextSlide() {
-		  currentSlide++;
-		  if (currentSlide >= slides.length) {
-			currentSlide = 0;
-		  }
-		  showSlide(currentSlide);
-		}
-		setInterval(nextSlide, 3000);
+			const slides = document.querySelectorAll('.slide');
+			let currentSlide = 0;
+			
+			function showSlide(slideIndex) {
+				slides.forEach((slide) => {
+					slide.classList.remove('active');
+				});
+			
+				slides[slideIndex].classList.add('active');
+			}
+			
+			function nextSlide() {
+				currentSlide++;
+				if (currentSlide >= slides.length) {
+					currentSlide = 0;
+				}
+				showSlide(currentSlide);
+				}
+			setInterval(nextSlide, 3000);
 		</script> -->
-	</body>
-	</html>
+</body>
+</html>

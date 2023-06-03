@@ -5,353 +5,179 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bruna Marques Store</title>
-	<style>
-	body{
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	height:200vh;
-	}
-	
-	
-	header{
-	display: grid;
-	grid-template-columns:1fr 5fr 1fr 0.25fr 1fr;
-	background-color: #FFCAA6;
-	}
-
-	#logo{
-	margin-right:200px;
-	}
-	
-	#Bbusca{
-	margin-right:10px;
-	}
-
-	#busca{
-		width: 400px;
-		margin-right: 5px;
-	}
-
-	header nav{
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	h2{
-		font-family: 'Island Moments', cursive;
-		font-size: 50px;
-	}
-	
-	.linkcima{
-	margin-right:50px;
-	}
-	
-	#cima a{
-	text-decoration: none;
-	color:black;
-	}
-
-	.slide{
-		border-radius: 50%;
-	}
-	
-	#cima a:hover{
-	color:white;
-	}
-	
-	#cima{
-	background-color: #FFCAA6;
-	width:100%;
-	height:25px;
-	text-align:center;
-	}
-	
-	#descontos{
-	display:block;
-	}
-	
-	#principal{
-	display:grid;
-	grid-template-columns:1fr 3fr;
-	}
-	
-	#cores{
-	margin: 20px;
-	}
-	
-	#minimo, #maximo{
-	width:40px;
-	}
-	
-	input::-webkit-outer-spin-button,
-	input::-webkit-inner-spin-button {
-	-webkit-appearance: none;
-	margin: 0;
-	}
-	
-	aside{
-	border: solid;
-	border-color: #D8976B;
-	border-radius:15px;
-	margin-top: 25px;
-	text-align: center;
-	}
-	
-	aside a{
-	border:solid;
-	border-color: black;
-	text-decoration:none;
-	color:black;
-	}
-	
-	
-	#filtro{
-	background-color: #FFB481;
-	border-color: white;
-	}
-	
-	main{
-	display:grid;
-	grid-template-columns:1fr 1fr 1fr;
-	}
-
-	.img{
-	border-radius: 50%;
-	justify-self: center;
-	}
-	
-	.oferta{
-	height:175px;
-	width:250px;
-	background-color:white;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	align-items: center;
-	border-radius:10px;
-	border: solid;
-	border-color: #D8976B;
-	margin: 35px;
-	}
-
-	p{
-		font-size: 15px;
-	}
-	
-	#ofertalinha1, #ofertalinha2, #ofertalinha3{
-	padding-top: 50px;
-	padding-bottom: 20px;
-	}
-	
-	#newsletter{
-	width:100%;
-	height: 80px;
-	margin: 20px 0 20px 0;
-	background-color: #FFDFC9;
-	text-align: center;
-	}
-	
-	footer{
-	background-color: #FFDFC9;
-	width:100%;
-	height: 150px;
-	display:grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	}
-	
-	
-	.footer{
-		text-align: center;
-	}
-
-	.footer a{
-		text-decoration: none;
-		color: black;
-	}
-
-	.footer a:hover{
-		color: purple;
-	}
-	
-	h3{
-	color: #D8976B;
-	}
-	
-	::placeholder{
-	text-align: center;
-	}
-	</style>
-	</head>
-	<body>
+	<link href="style/style.css" rel="stylesheet">
+</head>
+<body>
 	<header>
-	<img src="" alt="Logo" id="logo">
-	<nav>
-		<input type="text" id="busca" placeholder="O que voce procura?">
-		<button id="Bbusca">Buscar</button>
-	</nav>
-	<img src="" alt="Carrinho de compras">
-	<button>Login</button>
-	<img src="" alt="Foto do usuario">
+		<img src="imagens/BMStore.png" alt="Logo" id="logo">
+		<nav>
+			<input type="text" id="busca" placeholder="O que voce procura?">
+			<button id="Bbusca">Buscar</button>
+		</nav>
+		<img src="" alt="Carrinho de compras">
+		<button>Login</button>
+		<img src="" alt="Foto do usuario">
 	</header>
 	<nav id="cima">
       <a href="#" class="linkcima">Categorias</a><a href="#" class="linkcima">Ofertas</a><a href="#" class="linkcima">Mais Vendidos</a><a href="#" class="linkcima">Atendimento</a>
-			</nav>
+	</nav>
 	<div id="principal">	
-	<aside>
-		<h3>Filtros</h3>
-		<h4>Tamanhos</h4>
-		<a href="#" class="tamanho">33</a>
-		<a href="#" class="tamanho">34</a>
-		<a href="#" class="tamanho">35</a>
-		<a href="#" class="tamanho">36</a>
-		<a href="#" class="tamanho">37</a>
-		<a href="#" class="tamanho">38</a>
-		<a href="#" class="tamanho">39</a>
-		<a href="#" class="tamanho">40</a>
-		<a href="#" class="outros">Outros</a>
-		<nav id="cores">
-		<label for="modelo">Modelo:</label>
-		<select name="modelo" id="modelo">
-		<option value="cor" hidden>Cor</option>
-  <option value="vermelho">Vermelho</option>
-  <option value="roxo">Roxo</option>
-  <option value="azul">Azul</option>
-  <option value="amarelo">Amarelo</option>
-  <option value="branco">Branco</option>
-  <option value="rosa">Rosa</option>
-		</select>
-		</nav>
-		<h4>Preco</h4>
-		<label for="minimo">Min:</label>
-		<input type="number" name="minimo" id="minimo">
-		<label for="maximo">Max:</label>
-		<input type="number" name="maximo" id="maximo">
-		<nav id="descontos">
-		<h4>Descontos</h4>
-		<input type="radio" id="dez" name="desconto" value="ate10"><label for="dez">Ate 10%</label><br>
-		<input type="radio" id="dez-vinte" name="desconto" value="10-20"><label for="dez-vinte">De 10% ate 20%</label><br>
-		<input type="radio" id="vinte-trinta" name="desconto" value="20-30"><label for="vinte-trinta">De 20% ate 30%</label><br>
-		<input type="radio" id="trinta-quarenta" name="desconto" value="30-40"><label for="trinta-quarenta">De 30% ate 40%</label><br>
-		<input type="radio" id="quarenta-cinquenta" name="desconto" value="40-50"><label for="quarenta-cinquenta">De 40% ate 50%</label><br>
-		</nav>
-		<button id="filtro">Filtrar</button>
-	</aside>	
-	<main>
-        <div>
+		<aside>
+			<h3>Filtros</h3>
+			<h4>Tamanhos</h4>
+			<a href="#" class="tamanho">33</a>
+			<a href="#" class="tamanho">34</a>
+			<a href="#" class="tamanho">35</a>
+			<a href="#" class="tamanho">36</a>
+			<a href="#" class="tamanho">37</a>
+			<a href="#" class="tamanho">38</a>
+			<a href="#" class="tamanho">39</a>
+			<a href="#" class="tamanho">40</a>
+			<a href="#" class="outros">Outros</a>
+			<nav id="cores">
+				<label for="modelo">Modelo:</label>
+				<select name="modelo" id="modelo">
+				<option value="cor" hidden>Cor</option>
+				<option value="vermelho">Vermelho</option>
+				<option value="roxo">Roxo</option>
+				<option value="azul">Azul</option>
+				<option value="amarelo">Amarelo</option>
+				<option value="branco">Branco</option>
+				<option value="rosa">Rosa</option>
+				</select>
+			</nav>
+			<h4>Preco</h4>
+			<label for="minimo">Min:</label>
+			<input type="number" name="minimo" id="minimo">
+			<label for="maximo">Max:</label>
+			<input type="number" name="maximo" id="maximo">
+			<nav id="descontos">
+			<h4>Descontos</h4>
+			<input type="radio" id="dez" name="desconto" value="ate10"><label for="dez">Ate 10%</label><br>
+			<input type="radio" id="dez-vinte" name="desconto" value="10-20"><label for="dez-vinte">De 10% ate 20%</label><br>
+			<input type="radio" id="vinte-trinta" name="desconto" value="20-30"><label for="vinte-trinta">De 20% ate 30%</label><br>
+			<input type="radio" id="trinta-quarenta" name="desconto" value="30-40"><label for="trinta-quarenta">De 30% ate 40%</label><br>
+			<input type="radio" id="quarenta-cinquenta" name="desconto" value="40-50"><label for="quarenta-cinquenta">De 40% ate 50%</label><br>
+			</nav>
+			<button id="filtro">Filtrar</button>
+		</aside>
+
+		<main>
 		<div id="ofertalinha1">
-		<nav class="oferta">
-		<a href="#"><img src="imagens/bolsamarrom.jpg" class="img" alt="oferta1"></a>
-		<p>De: R$89,99<br>
-		Por:R$69,99<br>
-		Bolsa com alça regulável.<br>
-		Clique no produto para continuar a comprar</p>
-		</nav>
+			<nav class="oferta">
+				<a href="#"><img src="imagens/bolsamarrom.jpg" class="img" alt="oferta1"></a>
+				<p>De: R$89,99<br>
+				Por:R$69,99<br>
+				Bolsa com alça regulável.<br>
+				Clique no produto para continuar a comprar</p>
+			</nav>
 		
-		<nav class="oferta">
-		<a href="#"><img src="imagens/bolsabranca.jpg" class="img" alt="oferta2"></a>
-		<p>De: R$--,--
-		Por:R$--,--
-		Descricao do produto
-		Clique no produto para continuar a comprar</p>
-		</nav>
+			<nav class="oferta">
+				<a href="#"><img src="imagens/bolsabranca.jpg" class="img" alt="oferta2"></a>
+				<p>De: R$--,--
+				Por:R$--,--
+				Descricao do produto
+				Clique no produto para continuar a comprar</p>
+			</nav>
 	
-		<nav class="oferta">
-		<a href="#"><img src="imagens/bolsalaranja.jpg" class="img" alt="oferta3"></a>
-		<p>De: R$--,--
-		Por:R$--,--
-		Descricao do produto
-		Clique no produto para continuar a comprar</p>
-		</nav>
+			<nav class="oferta">
+				<a href="#"><img src="imagens/bolsalaranja.jpg" class="img" alt="oferta3"></a>
+				<p>De: R$--,--
+				Por:R$--,--
+				Descricao do produto
+				Clique no produto para continuar a comprar</p>
+			</nav>
 		</div>
 		<div id="ofertalinha2">
-		<nav class="oferta">
-		<a href="#"><img src="imagens/bolsamarrom.jpg" class="img" alt="oferta4"></a>
-		<p>De: R$89,99<br>
-		Por:R$69,99<br>
-		Bolsa com alça regulável.<br>
-		Clique no produto para continuar a comprar</p>
-		</nav>
+			<nav class="oferta">
+				<a href="#"><img src="imagens/bolsamarrom.jpg" class="img" alt="oferta4"></a>
+				<p>De: R$89,99<br>
+				Por:R$69,99<br>
+				Bolsa com alça regulável.<br>
+				Clique no produto para continuar a comprar</p>
+			</nav>
 		
-		<nav class="oferta">
-		<a href="#"><img src="imagens/bolsabranca.jpg" class="img" alt="oferta5"></a>
-		<p>De: R$--,--
-		Por:R$--,--
-		Descricao do produto
-		Clique no produto para continuar a comprar</p>
-		</nav>
+			<nav class="oferta">
+				<a href="#"><img src="imagens/bolsabranca.jpg" class="img" alt="oferta5"></a>
+				<p>De: R$--,--
+				Por:R$--,--
+				Descricao do produto
+				Clique no produto para continuar a comprar</p>
+			</nav>
 	
-		<nav class="oferta">
-		<a href="#"><img src="imagens/bolsalaranja.jpg" class="img" alt="oferta6"></a>
-		<p>De: R$--,--
-		Por:R$--,--
-		Descricao do produto
-		Clique no produto para continuar a comprar</p>
-		</nav>
+			<nav class="oferta">
+				<a href="#"><img src="imagens/bolsalaranja.jpg" class="img" alt="oferta6"></a>
+				<p>De: R$--,--
+				Por:R$--,--
+				Descricao do produto
+				Clique no produto para continuar a comprar</p>
+			</nav>
 		</div>
 		<div id="ofertalinha3">
-		<nav class="oferta">
-		<a href="#"><img src="imagens/bolsamarrom.jpg" class="img" alt="oferta7"></a>
-		<p>De: R$89,99<br>
-		Por:R$69,99<br>
-		Bolsa com alça regulável.<br>
-		Clique no produto para continuar a comprar</p>
-		</nav>
+			<nav class="oferta">
+				<a href="#"><img src="imagens/bolsamarrom.jpg" class="img" alt="oferta7"></a>
+				<p>De: R$89,99<br>
+				Por:R$69,99<br>
+				Bolsa com alça regulável.<br>
+				Clique no produto para continuar a comprar</p>
+			</nav>
 		
-		<nav class="oferta">
-		<a href="#"><img src="imagens/bolsabranca.jpg" class="img" alt="oferta8"></a>
-		<p>De: R$--,--
-		Por:R$--,--
-		Descricao do produto
-		Clique no produto para continuar a comprar</p>
-		</nav>
+			<nav class="oferta">
+				<a href="#"><img src="imagens/bolsabranca.jpg" class="img" alt="oferta8"></a>
+				<p>De: R$--,--
+				Por:R$--,--
+				Descricao do produto
+				Clique no produto para continuar a comprar</p>
+			</nav>
 	
-		<nav class="oferta">
-		<a href="#"><img src="imagens/bolsalaranja.jpg" class="img" alt="oferta9"></a>
-		<p>De: R$--,--
-		Por:R$--,--
-		Descricao do produto
-		Clique no produto para continuar a comprar</p>
-		</nav>
-		</div>
+			<nav class="oferta">
+				<a href="#"><img src="imagens/bolsalaranja.jpg" class="img" alt="oferta9"></a>
+				<p>De: R$--,--
+				Por:R$--,--
+				Descricao do produto
+				Clique no produto para continuar a comprar</p>
+			</nav>
 		</div>
 		</main>
-		<nav id="newsletter">
-		<h3>Inscreva-se para receber nossa newsletter:</h3>
-		<form method="post" action="">
-		<label for="nome">Nome: </label>
-		<input type="text" name="nome" id="nome" minlength="2"  maxlength="45" required placeholder="Seu nome">
-		<label for="email">E-mail:</label>
-		<input type="email" name="email" id="email" maxlength="100" placeholder="Seu e-mail" required>
-		<button>Enviar</button>
-        </form>
-		</nav>
+	</div>
+			<nav id="newsletter">
+				<h3>Inscreva-se para receber nossa newsletter:</h3>
+				<form method="post" action="">
+					<label for="nome">Nome: </label>
+					<input type="text" name="nome" id="nome" minlength="2"  maxlength="45" required placeholder="Seu nome">
+					<label for="email">E-mail:</label>
+					<input type="email" name="email" id="email" maxlength="100" placeholder="Seu e-mail" required>
+					<button>Enviar</button>
+				</form>
+			</nav>
 
 		<footer>
 		
-		<nav class="footer">
-		<h3>Departamentos</h3>
-		<a href="#">Bolsas</a><br>
-		<a href="#">Calcados</a><br>
-		<a href="#">Carteiras</a><br>
-		</nav>
-	
-		<nav class="footer">
-		<h3>Institucional</h3>
-		<a href="#">Sobre a Bruna Marques</a><br>
-		<a href="#">Fornecedores</a><br>
+			<nav class="footer">
+				<h3>Departamentos</h3>
+				<a href="#">Bolsas</a><br>
+				<a href="#">Calcados</a><br>
+				<a href="#">Carteiras</a><br>
+			</nav>
+		
+			<nav class="footer">
+				<h3>Institucional</h3>
+				<a href="#">Sobre a Bruna Marques</a><br>
+				<a href="#">Fornecedores</a><br>
+			</nav>
+		
+			<nav class="footer">
+				<h3>Atendimento ao Cliente</h3>
+				<a href="#">Fale com a gente</a><br>
+				<a href="#">Nossos canais de atendimento</a><br>
+				<a href="#">Trocas e Devolucoes</a><br>
+			</nav>
+		
+			<nav class="footer">
+				<h3>Trabalhe conosco</h3>
+				<a href="#">Seja modelo</a>
+			</nav>
 
-		</nav>
-	
-		<nav class="footer">
-		<h3>Atendimento ao Cliente</h3>
-		<a href="#">Fale com a gente</a><br>
-		<a href="#">Nossos canais de atendimento</a><br>
-		<a href="#">Trocas e Devolucoes</a><br>
-		</nav>
-	
-		<nav class="footer">
-		<h3>Trabalhe conosco</h3>
-		<a href="#">Seja modelo</a>
-		</nav>
         </footer>
 	</body>
 	</html>

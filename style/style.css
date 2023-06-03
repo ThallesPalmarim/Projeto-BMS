@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:200vh;
+}
+
+header{
+    display: grid;
+    grid-template-columns:1fr 5fr 1fr 0.25fr 1fr;
+    background-color: #FFCAA6;
+}
+
+#logo{
+    margin-right:200px;
+}
+
+#Bbusca{
+    margin-right:10px;
+}
+
+#busca{
+    width: 400px;
+    margin-right: 5px;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-family: 'Island Moments', cursive;
+    font-size: 50px;
+}
+
+.linkcima{
+    margin-right:50px;
+}
+/*
+#carrossel{
+    overflow:hidden;
+    position: relative;
+}
+
+.slide{
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5 ease-in-out;
+}
+
+.slide.active{
+    opacity: 1;
+}
+
+.slide img{
+    object-fit: cover;
+}
+*/
+#cima a{
+    text-decoration: none;
+    color:black;
+}
+
+.slide{
+    border-radius: 50%;
+}
+
+#cima a:hover{
+    color:white;
+}
+
+#cima{
+    background-color: #FFCAA6;
+    width:100%;
+    height:25px;
+    text-align:center;
+}
+
+
+#oferta{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+
+.img{
+    border-radius: 50%;
+    justify-self: center;
+}
+
+#oferta1, #oferta2, #oferta3{
+    border-radius:10px;
+    border: solid;
+    border-color: #D8976B;
+}
+
+p{
+    font-size: 15px;
+}
+
+#oferta1, #oferta2, #oferta3{
+    height:210px;
+    width:300px;
+    background-color:white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+#newsletter{
+    width:100%;
+    height: 80px;
+    margin: 20px 0 20px 0;
+    background-color: #FFDFC9;
+    text-align: center;
+}
+
+footer{
+    background-color: #FFDFC9;
+    width:100%;
+    height: 150px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.footer{
+    text-align: center;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover{
+    color: purple;
+}
+
+h3{
+    color: #D8976B;
+}
+
+::placeholder{
+    text-align: center;
+}
+
+/*----------------------------------------------------------*/
+
+#descontos{
+    display:block;
+}
+
+#principal{
+    display:grid;
+    grid-template-columns:1fr 3fr;
+}
+
+#cores{
+    margin: 20px;
+}
+
+#minimo, #maximo{
+    width:40px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+aside{
+    border: solid;
+    border-color: #D8976B;
+    border-radius:15px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+aside a{
+    border:solid;
+    border-color: black;
+    text-decoration:none;
+    color:black;
+}
+
+
+#filtro{
+    background-color: #FFB481;
+    border-color: white;
+}
+
+main{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+
+.img{
+    border-radius: 50%;
+    justify-self: center;
+}
+
+.oferta{
+    height:175px;
+    width:250px;
+    background-color:white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border-radius:10px;
+    border: solid;
+    border-color: #D8976B;
+    margin: 35px;
+}
+
+#ofertalinha1, #ofertalinha2, #ofertalinha3{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
