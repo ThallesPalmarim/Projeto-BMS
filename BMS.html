@@ -9,93 +9,114 @@
 	</head>
 <body>
 	<header>
-		<img src="imagens/BMStore.png" alt="Logo" id="logo">
+		<img src="imagens/BMStore.png" alt="Logo" class="logo">
 		<nav>
 			<input type="text" id="busca" placeholder="O que voce procura?">
-			<button id="Bbusca">Buscar</button>
+			<button class="Bbusca">Buscar</button>
 		</nav>
-			<img src="" alt="Carrinho de compras">
-			<button>Login</button>
-			<img src="" alt="Foto do usuario">
+		<figure>
+			<img src="imagens/shopping-cart.svg" alt="Carrinho de compras">
+			<figurecaption>Meu carrinho</figurecaption>
+		</figure>
+		<figure>
+			<img class="login" src="imagens/user.svg" alt="Foto do usuario">
+			<figurecaption>Login</figurecaption>
+		</figure>
+		<nav class="menu">
+			<ul>
+				<li><a href="#" class="linkcima"><img src="imagens/square.svg" alt="categorias">Categorias</a></li>
+				<li><a href="#" class="linkcima">Ofertas</a></li>
+				<li><a href="#" class="linkcima">Mais Vendidos</a></li>
+				<li><a href="#" class="linkcima">Atendimento</a></li>
+			</ul>
+		</nav>
 	</header>
-	<nav id="cima">
-      <a href="#" class="linkcima">Categorias</a><a href="#" class="linkcima">Ofertas</a><a href="#" class="linkcima">Mais Vendidos</a><a href="#" class="linkcima">Atendimento</a>
-			</nav>
-	<main id="carrossel">
-		<a href="#"><img src="imagens/sapato.jfif" class="slide" alt="Imagem 1"></a>
-		<a href="#"><img src="imagens/sapato2.jfif" class="slide" alt="Imagem 2"></a>
-		<a href="#"><img src="imagens/sapato3.jfif" class="slide" alt="Imagem 3"></a>
-		
-		<h2>Mais vendidas</h2>
-		
-		<a href="#"><img src="imagens/carteira1.jpg" alt="mais vendido1"></a>
-		<a href="#"><img src="imagens/carteira2.jpg" alt="mais vendido2"></a>
-		<a href="#"><img src="imagens/carteira3.jpg" alt="mais vendido3"></a>
-		
-		<h2>Ofertas</h2>
-		<div id="oferta">
-			<nav id="oferta1">
-				<a href="#"><img src="imagens/bolsamarrom.jpg" class="img" alt="oferta1"></a>
-				<p>De: R$89,99<br>
-				Por:R$69,99<br>
-				Bolsa com alça regulável.<br>
-				Clique no produto para continuar a comprar</p>
-			</nav>
+	<main>
+		<div class="carrosel">
+			<a href="#"><img src="imagens/sapato.jfif" class="slide" alt="Imagem 1"></a>
+			<a href="#"><img src="imagens/sapato2.jfif" class="slide" alt="Imagem 2"></a>
+			<a href="#"><img src="imagens/sapato3.jfif" class="slide" alt="Imagem 3"></a>
+		</div>
+		<div class="categorias">
+			<a href="#"><img src="" alt="Bolsas"></a>
+			<a href="#"><img src="" alt="Sapatos"></a>
+			<a href="#"><img src="" alt="Carteiras"></a>
+		</div>
+
+		<div class="maisVendidos">	
+			<h2>Mais vendidas</h2>
 			
-			<nav id="oferta2">
-				<a href="#"><img src="imagens/bolsabranca.jpg" class="img" alt="oferta2"></a>
-				<p>De: R$--,--
-				Por:R$--,--
-				Descricao do produto
-				Clique no produto para continuar a comprar</p>
-			</nav>
+			<a href="#"><img src="imagens/carteira1.jpg" alt="mais vendido1"></a>
+			<a href="#"><img src="imagens/carteira2.jpg" alt="mais vendido2"></a>
+			<a href="#"><img src="imagens/carteira3.jpg" alt="mais vendido3"></a>
+		</div>
 		
-			<nav id="oferta3">
+		<div class="oferta">
+			<h2>Ofertas</h2>
+
+			<div class="itemOferta">
 				<a href="#"><img src="imagens/bolsalaranja.jpg" class="img" alt="oferta3"></a>
 				<p>De: R$--,--
 				Por:R$--,--
 				Descricao do produto
 				Clique no produto para continuar a comprar</p>
-			</nav>
+			</div>
+			
+			<div class="itemOferta">
+				<a href="#"><img src="imagens/bolsalaranja.jpg" class="img" alt="oferta3"></a>
+				<p>De: R$--,--
+				Por:R$--,--
+				Descricao do produto
+				Clique no produto para continuar a comprar</p>
+			</div>
+		
+			<div class="itemOferta">
+				<a href="#"><img src="imagens/bolsalaranja.jpg" class="img" alt="oferta3"></a>
+				<p>De: R$--,--
+				Por:R$--,--
+				Descricao do produto
+				Clique no produto para continuar a comprar</p>
+			</div>
 		</div>
 
-		<nav id="newsletter">
+		<div id="newsletter">
 			<h3>Inscreva-se para receber nossa newsletter:</h3>
 			<form method="post" action="">
-			<label for="nome">Nome: </label>
-			<input type="text" name="nome" id="nome" minlength="2"  maxlength="45" required placeholder="Seu nome">
-			<label for="email">E-mail:</label>
-			<input type="email" name="email" id="email" maxlength="100" placeholder="Seu e-mail" required>
-			<button>Enviar</button>
-		</nav>
+				<label for="nome">Nome: </label>
+				<input type="text" name="nome" id="nome" minlength="2"  maxlength="45" required placeholder="Seu nome">
+				<label for="email">E-mail:</label>
+				<input type="email" name="email" id="email" maxlength="100" placeholder="Seu e-mail" required>
+				<button>Enviar</button>
+			</form>
+		</div>
+	</main>
 		
-		<footer>
-		
-			<nav class="footer">
-				<h3>Departamentos</h3>
-				<a href="#">Bolsas</a><br>
-				<a href="#">Calcados</a><br>
-				<a href="#">Carteiras</a><br>
-			</nav>
+	<footer>
+		<div class="footer">
+			<h3>Departamentos</h3>
+			<a href="#">Bolsas</a><br>
+			<a href="#">Calcados</a><br>
+			<a href="#">Carteiras</a><br>
+		</div>
 	
-			<nav class="footer">
-				<h3>Institucional</h3>
-				<a href="#">Sobre a Bruna Marques</a><br>
-				<a href="#">Fornecedores</a><br>
-			</nav>
-		
-			<nav class="footer">
-				<h3>Atendimento ao Cliente</h3>
-				<a href="#">Fale com a gente</a><br>
-				<a href="#">Nossos canais de atendimento</a><br>
-				<a href="#">Trocas e Devolucoes</a><br>
-			</nav>
-		
-			<nav class="footer">
-				<h3>Trabalhe conosco</h3>
-				<a href="#">Seja modelo</a>
-			</nav>
-		</footer>
+		<div class="footer">
+			<h3>Institucional</h3>
+			<a href="#">Sobre a Bruna Marques</a><br>
+			<a href="#">Fornecedores</a><br>
+		</div>
+	
+		<div class="footer">
+			<h3>Atendimento ao Cliente</h3>
+			<a href="#">Fale com a gente</a><br>
+			<a href="#">Nossos canais de atendimento</a><br>
+			<a href="#">Trocas e Devolucoes</a><br>
+		</div>
+	
+		<div class="footer">
+			<h3>Trabalhe conosco</h3>
+			<a href="#">Seja modelo</a>
+		</div>
+	</footer>
 		<!--
 		<script>
 			const slides = document.querySelectorAll('.slide');

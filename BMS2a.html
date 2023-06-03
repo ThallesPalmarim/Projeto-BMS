@@ -9,18 +9,28 @@
 </head>
 <body>
 	<header>
-		<img src="imagens/BMStore.png" alt="Logo" id="logo">
-		<nav>
+		<img src="imagens/BMStore.png" alt="Logo" class="logo">
+		<nav class="busca">
 			<input type="text" id="busca" placeholder="O que voce procura?">
-			<button id="Bbusca">Buscar</button>
+			<button class="Bbusca">Buscar</button>
 		</nav>
-		<img src="" alt="Carrinho de compras">
-		<button>Login</button>
-		<img src="" alt="Foto do usuario">
+		<figure>
+			<img src="imagens/shopping-cart.svg" alt="Carrinho de compras">
+			<figurecaption>Meu carrinho</figurecaption>
+		</figure>
+		<figure>
+			<img class="login" src="imagens/user.svg" alt="Foto do usuario">
+			<figurecaption>Login</figurecaption>
+		</figure>
+		<nav class="menu">
+			<ul>
+				<li><a href="#" class="linkcima"><img src="imagens/square.svg" alt="categorias">Categorias</a></li>
+				<li><a href="#" class="linkcima">Ofertas</a></li>
+				<li><a href="#" class="linkcima">Mais Vendidos</a></li>
+				<li><a href="#" class="linkcima">Atendimento</a></li>
+			</ul>
+		</nav>
 	</header>
-	<nav id="cima">
-      <a href="#" class="linkcima">Categorias</a><a href="#" class="linkcima">Ofertas</a><a href="#" class="linkcima">Mais Vendidos</a><a href="#" class="linkcima">Atendimento</a>
-	</nav>
 	<div id="principal">	
 		<aside>
 			<h3>Filtros</h3>
@@ -51,133 +61,132 @@
 			<input type="number" name="minimo" id="minimo">
 			<label for="maximo">Max:</label>
 			<input type="number" name="maximo" id="maximo">
+			
 			<nav id="descontos">
-			<h4>Descontos</h4>
-			<input type="radio" id="dez" name="desconto" value="ate10"><label for="dez">Ate 10%</label><br>
-			<input type="radio" id="dez-vinte" name="desconto" value="10-20"><label for="dez-vinte">De 10% ate 20%</label><br>
-			<input type="radio" id="vinte-trinta" name="desconto" value="20-30"><label for="vinte-trinta">De 20% ate 30%</label><br>
-			<input type="radio" id="trinta-quarenta" name="desconto" value="30-40"><label for="trinta-quarenta">De 30% ate 40%</label><br>
-			<input type="radio" id="quarenta-cinquenta" name="desconto" value="40-50"><label for="quarenta-cinquenta">De 40% ate 50%</label><br>
+				<h4>Descontos</h4>
+				<input type="radio" id="dez" name="desconto" value="ate10"><label for="dez">Ate 10%</label><br>
+				<input type="radio" id="dez-vinte" name="desconto" value="10-20"><label for="dez-vinte">De 10% ate 20%</label><br>
+				<input type="radio" id="vinte-trinta" name="desconto" value="20-30"><label for="vinte-trinta">De 20% ate 30%</label><br>
+				<input type="radio" id="trinta-quarenta" name="desconto" value="30-40"><label for="trinta-quarenta">De 30% ate 40%</label><br>
+				<input type="radio" id="quarenta-cinquenta" name="desconto" value="40-50"><label for="quarenta-cinquenta">De 40% ate 50%</label><br>
 			</nav>
 			<button id="filtro">Filtrar</button>
 		</aside>
 
 		<main>
 		<div id="ofertalinha1">
-			<nav class="oferta">
+			<div class="item">
 				<a href="#"><img src="imagens/bolsamarrom.jpg" class="img" alt="oferta1"></a>
 				<p>De: R$89,99<br>
 				Por:R$69,99<br>
 				Bolsa com alça regulável.<br>
 				Clique no produto para continuar a comprar</p>
-			</nav>
+			</div>
 		
-			<nav class="oferta">
+			<div class="item">
 				<a href="#"><img src="imagens/bolsabranca.jpg" class="img" alt="oferta2"></a>
 				<p>De: R$--,--
 				Por:R$--,--
 				Descricao do produto
 				Clique no produto para continuar a comprar</p>
-			</nav>
+			</div>
 	
-			<nav class="oferta">
+			<div class="item">
 				<a href="#"><img src="imagens/bolsalaranja.jpg" class="img" alt="oferta3"></a>
 				<p>De: R$--,--
 				Por:R$--,--
 				Descricao do produto
 				Clique no produto para continuar a comprar</p>
-			</nav>
+			</div>
 		</div>
 		<div id="ofertalinha2">
-			<nav class="oferta">
+			<div class="item">
 				<a href="#"><img src="imagens/bolsamarrom.jpg" class="img" alt="oferta4"></a>
 				<p>De: R$89,99<br>
 				Por:R$69,99<br>
 				Bolsa com alça regulável.<br>
 				Clique no produto para continuar a comprar</p>
-			</nav>
+			</div>
 		
-			<nav class="oferta">
+			<div class="item">
 				<a href="#"><img src="imagens/bolsabranca.jpg" class="img" alt="oferta5"></a>
 				<p>De: R$--,--
 				Por:R$--,--
 				Descricao do produto
 				Clique no produto para continuar a comprar</p>
-			</nav>
+			</div>
 	
-			<nav class="oferta">
+			<div class="item">
 				<a href="#"><img src="imagens/bolsalaranja.jpg" class="img" alt="oferta6"></a>
 				<p>De: R$--,--
 				Por:R$--,--
 				Descricao do produto
 				Clique no produto para continuar a comprar</p>
-			</nav>
+			</div>
 		</div>
 		<div id="ofertalinha3">
-			<nav class="oferta">
+			<div class="item">
 				<a href="#"><img src="imagens/bolsamarrom.jpg" class="img" alt="oferta7"></a>
 				<p>De: R$89,99<br>
 				Por:R$69,99<br>
 				Bolsa com alça regulável.<br>
 				Clique no produto para continuar a comprar</p>
-			</nav>
+			</div>
 		
-			<nav class="oferta">
+			<div class="item">
 				<a href="#"><img src="imagens/bolsabranca.jpg" class="img" alt="oferta8"></a>
 				<p>De: R$--,--
 				Por:R$--,--
 				Descricao do produto
 				Clique no produto para continuar a comprar</p>
-			</nav>
+			</div>
 	
-			<nav class="oferta">
+			<div class="item">
 				<a href="#"><img src="imagens/bolsalaranja.jpg" class="img" alt="oferta9"></a>
 				<p>De: R$--,--
 				Por:R$--,--
 				Descricao do produto
 				Clique no produto para continuar a comprar</p>
-			</nav>
+			</div>
 		</div>
 		</main>
 	</div>
-			<nav id="newsletter">
-				<h3>Inscreva-se para receber nossa newsletter:</h3>
-				<form method="post" action="">
-					<label for="nome">Nome: </label>
-					<input type="text" name="nome" id="nome" minlength="2"  maxlength="45" required placeholder="Seu nome">
-					<label for="email">E-mail:</label>
-					<input type="email" name="email" id="email" maxlength="100" placeholder="Seu e-mail" required>
-					<button>Enviar</button>
-				</form>
-			</nav>
+		<div id="newsletter">
+			<h3>Inscreva-se para receber nossa newsletter:</h3>
+			<form method="post" action="">
+				<label for="nome">Nome: </label>
+				<input type="text" name="nome" id="nome" minlength="2"  maxlength="45" required placeholder="Seu nome">
+				<label for="email">E-mail:</label>
+				<input type="email" name="email" id="email" maxlength="100" placeholder="Seu e-mail" required>
+				<button>Enviar</button>
+			</form>
+		</div>
 
 		<footer>
-		
-			<nav class="footer">
+			<div class="footer">
 				<h3>Departamentos</h3>
 				<a href="#">Bolsas</a><br>
 				<a href="#">Calcados</a><br>
 				<a href="#">Carteiras</a><br>
-			</nav>
+			</div>
 		
-			<nav class="footer">
+			<div class="footer">
 				<h3>Institucional</h3>
 				<a href="#">Sobre a Bruna Marques</a><br>
 				<a href="#">Fornecedores</a><br>
-			</nav>
+			</div>
 		
-			<nav class="footer">
+			<div class="footer">
 				<h3>Atendimento ao Cliente</h3>
 				<a href="#">Fale com a gente</a><br>
 				<a href="#">Nossos canais de atendimento</a><br>
 				<a href="#">Trocas e Devolucoes</a><br>
-			</nav>
+			</div>
 		
-			<nav class="footer">
+			<div class="footer">
 				<h3>Trabalhe conosco</h3>
 				<a href="#">Seja modelo</a>
-			</nav>
-
+			</div>
         </footer>
 	</body>
 	</html>
