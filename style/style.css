@@ -72,7 +72,6 @@ h2{
 */
 .menu ul{
     display: flex;
-    /*column-gap: 20px;*/
     padding: 0;
     list-style-type: none;
     justify-content: flex-end;
@@ -104,9 +103,35 @@ h2{
 }
 
 
-.oferta {
+.oferta, .maisVendidos{
     display:grid;
-    grid-template-columns:1fr 1fr 1fr;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.ofertaLinha, .maisVendidosLinha, .categorias{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.itemCategorias{
+    height:260px;
+    width:440px;
+    background-color:white;
+    display: grid;
+    align-items: center;
+    border: 2px solid #D8976B;
+    margin: 30px;
+}
+
+.itemMaisVendidos{
+    height:260px;
+    width:440px;
+    background-color:white;
+    display: grid;
+    align-items: center;
+    border: 2px solid #D8976B;
+    margin: 30px;
 }
 
 .img{
@@ -129,6 +154,7 @@ p{
     border-radius:10px;
     border: solid;
     border-color: #D8976B;
+    margin: 30px;
 }
 
 #newsletter{
@@ -150,7 +176,7 @@ footer{
 
 .footer{
     /*text-align: center;*/
-    padding: 0 0 0 40px;
+    padding: 0 0 0 90px;
 }
 
 .footer a{
