@@ -35,6 +35,15 @@ header{
     display: grid;
 }
 
+.navegation a{
+    text-decoration: none;
+    color: #7A7A7A;
+}
+
+.navegation a:hover{
+    color: #000;
+}
+
 .carrosel, .categorias, .maisVendidos, .oferta, .newsletter{
     grid-column-start: 1;
     grid-column-end: 3;
@@ -48,9 +57,22 @@ header nav{
     flex: 1;
 }
 
-h2{
+.titulo{
     font-family: 'Island Moments', cursive;
     font-size: 50px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.price{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h2, .price, .parcelarPrice {
     margin: 0;
 }
 
@@ -250,7 +272,7 @@ aside a{
     border-color: white;
 }
 
-main{
+.main{
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
 }
