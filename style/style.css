@@ -2,8 +2,7 @@
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 200vh;
-    margin: 0;
+    height:200vh;
 }
 
 header{
@@ -225,6 +224,7 @@ footer{
 
 h3{
     color: #D8976B;
+    : none;
 }
 
 ::placeholder{
@@ -262,15 +262,21 @@ aside{
     border-radius:15px;
     margin-top: 25px;
     text-align: center;
+    font-size: 1.5rem;
 }
 
-aside a{
-    border:solid;
+.tamanho{
+    padding: 0 2px 1px 2px;
+    border: 1px solid;
     border-color: black;
     text-decoration:none;
     color:black;
 }
 
+.tamanho:hover{
+    background-color: #D8976B;
+    color: #FFF;
+}
 
 #filtro{
     background-color: #FFB481;
