@@ -9,6 +9,7 @@ header{
     display: flex;
     background-color: #FFCAA6;
     flex-wrap: wrap;
+	margin-bottom:40px;
 }
 
 .logo{
@@ -115,10 +116,6 @@ h2, .price, .parcelarPrice {
     color:black;
 }
 
-.slide{
-    border-radius: 50%;
-}
-
 .menu a:hover{
     color:white;
 }
@@ -149,17 +146,15 @@ h2, .price, .parcelarPrice {
     background-color:white;
     display: grid;
     align-items: center;
-    border: 2px solid #D8976B;
     margin: 30px;
 }
 
 .itemMaisVendidos{
     height:260px;
-    width:400px;
+    width:398px;
     background-color:white;
     display: grid;
     align-items: center;
-    border: 2px solid #D8976B;
     margin: 30px;
 }
 
@@ -201,12 +196,11 @@ footer{
     height: 150px;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+	
 }
 
-
 .footer{
-    /*text-align: center;*/
-    padding: 0 0 0 90px;
+	margin-left:50px;
 }
 
 .footer a{
