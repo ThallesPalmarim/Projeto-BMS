@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
 
 body{
-    font-family: 'Inter', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height:200vh;
 }
 
@@ -10,6 +10,16 @@ header{
     background-color: #FFCAA6;
     flex-wrap: wrap;
 	margin-bottom:40px;
+}
+
+.compra{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.imgCompra, .compra {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .logo{
