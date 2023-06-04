@@ -11,17 +11,17 @@
 	<header>
 		<img src="imagens/BMStore.png" alt="Logo" class="logo">
 		<nav>
-			<input type="text" id="busca" placeholder="O que voce procura?">
+			<input type="search" id="busca" placeholder="O que voce procura?">
 			<button class="Bbusca">Buscar</button>
 		</nav>
-		<figure>
-			<img src="imagens/shopping-cart.svg" alt="Carrinho de compras">
-			<figurecaption>Meu carrinho</figurecaption>
-		</figure>
-		<figure>
-			<img class="login" src="imagens/user.svg" alt="Foto do usuario">
-			<figurecaption>Login</figurecaption>
-		</figure>
+        <div class="container">
+            <img src="imagens/shopping-cart.svg" alt="Carrinho de compras">
+            <a href="#" class="carrinho">Meu carrinho</a>
+        </div>
+        <div class="container">
+            <img src="imagens/user.svg" alt="Foto do usuario">
+            <a href="" class="login">Login</a>
+        </div>
 		<nav class="menu">
 			<ul>
 				<li><a href="#" class="linkcima"><img src="imagens/square.svg" alt="categorias">Categorias</a></li>
@@ -59,22 +59,31 @@
                 <p class="parcelarPrice">Ou em 50x de R$1,00 sem juros</p>
             </div>
             <div class="selecao">
-                <form method="post">
-                    <label for="cor">Cor: </label>
-                    <select name="cor" id="cor">
-                        <option value="cor" hidden>Cor</option>
-                        <option value="vermelho">Vermelho</option>
-                        <option value="roxo">Roxo</option>
-                        <option value="azul">Azul</option>
-                        <option value="amarelo">Amarelo</option>
-                        <option value="branco">Branco</option>
-                        <option value="rosa">Rosa</option>
-                    </select>
-                    <label for="tam">Número: </label>
-                    <input type="number" id="tam" name="tam" min="32" max="42" value="32" maxlength="2" minlength="2">
-                    <label for="frete"><img src="imagens/delivery-truck.svg" alt="Frete">Consultar frete e formas de envio</label>
-                    <input type="number" id="frete" name="frete" maxlength="8" minlength="8">
-                    <input type="number" id="quantidade" name="quantidade" maxlength="2" minlength="1"> <button for="quantidade">Adicionar ao carrinho</button>
+                <form method="post" action="">
+                    <p>
+                        <label for="cor">Cor: </label>
+                        <select name="cor" id="cor">
+                            <option value="cor" hidden>Cor</option>
+                            <option value="vermelho">Vermelho</option>
+                            <option value="roxo">Roxo</option>
+                            <option value="azul">Azul</option>
+                            <option value="amarelo">Amarelo</option>
+                            <option value="branco">Branco</option>
+                            <option value="preto">preto</option>
+                            <option value="rosa">Rosa</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="tam">Número: </label>
+                        <input type="number" id="tam" name="tam" min="32" max="42" value="32" maxlength="2" minlength="2">
+                    </p>
+                    <p>
+                        <label for="frete" class="frete"><img src="imagens/delivery-truck.svg" alt="Frete">Consultar frete e formas de envio</label>
+                    </p>
+                    <p>
+                        <input type="number" id="frete" name="frete" maxlength="8" minlength="8" placeholder="00000-000">
+                    </p>
+                        <input type="number" id="quantidade" name="quantidade" maxlength="2" minlength="1" placeholder="1"> <button for="quantidade" class="quantidade">Adicionar ao carrinho</button>
                 </form>
             </div>
         </div>
@@ -87,13 +96,13 @@
         <div class="similares">
             <h4>Produtos similares</h4>
             <div class="itemSimilar">
-                <img src="" alt="Imagem do produto">
+                <img src="" alt="Imagem do produto" class="fotoItemSimilar">
                 <h5>Lorem ipsum dolor</h5>
                 <p>R$90,00</p>
                 <p>ou em 10x de R$9,00 sem juros</p>
             </div>
             <div class="itemSimilar">
-                <img src="" alt="Imagem do produto">
+                <img src="" alt="Imagem do produto" class="fotoItemSimilar">
                 <h5>Lorem ipsum dolor</h5>
                 <p>R$90,00</p>
                 <p>ou em 10x de R$9,00 sem juros</p>
