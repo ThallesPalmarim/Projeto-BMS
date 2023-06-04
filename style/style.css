@@ -2,7 +2,8 @@
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height:200vh;
+    height: 200vh;
+    margin: 0;
 }
 
 header{
@@ -10,6 +11,16 @@ header{
     background-color: #FFCAA6;
     flex-wrap: wrap;
 	margin-bottom:40px;
+}
+
+.compra{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.imgCompra, .compra {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .logo{
