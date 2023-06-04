@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
 
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Inter, sans-serif;
     height:200vh;
 }
 
@@ -224,7 +224,8 @@ footer{
 
 h3{
     color: #D8976B;
-
+    font-weight: none;
+    font-size: 1.5rem;
 }
 
 ::placeholder{
@@ -244,6 +245,9 @@ h3{
 
 #cores{
     margin: 20px;
+}
+#modelo {
+    width: 200px;
 }
 
 #minimo, #maximo{
@@ -266,7 +270,9 @@ aside{
 }
 
 .tamanho{
-    padding: 0 2px 1px 2px;
+    margin: 3px;
+    margin-top: 4px;
+    padding: 4px 8px;
     border: 1px solid;
     border-color: black;
     text-decoration:none;
