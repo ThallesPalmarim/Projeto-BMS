@@ -227,6 +227,13 @@ h3{
     color: #D8976B;
     font-weight: none;
     font-size: 1.5rem;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: none;
 }
 
 ::placeholder{
@@ -237,6 +244,7 @@ h3{
 
 #descontos{
     display:block;
+    font-size: 0.75rem;
 }
 
 #principal{
@@ -244,11 +252,11 @@ h3{
     grid-template-columns:1fr 3fr;
 }
 
-#cores{
-    margin: 20px;
-}
 #modelo {
-    width: 200px;
+    width: 250px;
+    height: 20px;
+    float: right;
+    text-align: center;
 }
 
 #minimo, #maximo{
@@ -266,10 +274,13 @@ aside{
     border-color: #D8976B;
     border-radius:15px;
     margin-top: 25px;
-    text-align: center;
+    margin-left: 20px;
     font-size: 1.5rem;
 }
-
+aside p {
+    font-size: 1.5rem;
+    text-align: center;
+}
 .tamanho{
     margin: 3px;
     margin-top: 4px;
@@ -286,6 +297,7 @@ aside{
 }
 
 #filtro{
+    text-align: center;
     background-color: #FFB481;
     border-color: white;
 }
