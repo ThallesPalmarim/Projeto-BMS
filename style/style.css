@@ -11,22 +11,32 @@ header{
     background-color: #FFCAA6;
     flex-wrap: wrap;
 	margin-bottom:40px;
+    padding: 10px 0 5px 0;
 }
 
-/*.selecao {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}*/
+.login, .carrinho {
+    text-decoration: none;
+    color: #000;
+}
+
+.login:hover, .carrinho:hover {
+    color: #FFF;
+}
+
+.itemSimilar {
+    background-color: #FFDFC9;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.fotoItemSimilar {
+    float: left;
+    margin-right: 15px;
+}
 
 .imgCompra, .compra {
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
-
-.logo{
-    margin-right:200px;
-    max-width: 100%;
-    height: auto;
 }
 
 .Bbusca{
@@ -45,6 +55,31 @@ header{
 
 .categorias, .maisVendidos {
     display: grid;
+}
+
+#cor, #tam {
+    text-align: center;
+    width: 200px;
+}
+
+#cor {
+    margin-left: 31px;
+}
+
+.container img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: 25px;
+    text-align: center;
+}
+
+.quantidade {
+    margin-left: 10px;
 }
 
 .navegation a{
