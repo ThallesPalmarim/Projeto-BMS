@@ -12,10 +12,10 @@ header{
 	margin-bottom:40px;
 }
 
-.compra{
+/*.selecao {
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
+}*/
 
 .imgCompra, .compra {
     display: grid;
@@ -224,7 +224,6 @@ footer{
 
 h3{
     color: #D8976B;
-    : none;
 }
 
 ::placeholder{
