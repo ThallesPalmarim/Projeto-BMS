@@ -3,6 +3,7 @@
 body{
     font-family: Inter, sans-serif;
     height:200vh;
+    margin: 0;
 }
 
 header{
@@ -12,10 +13,10 @@ header{
 	margin-bottom:40px;
 }
 
-.compra{
+/*.selecao {
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
+}*/
 
 .imgCompra, .compra {
     display: grid;
