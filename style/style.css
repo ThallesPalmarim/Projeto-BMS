@@ -270,7 +270,7 @@ input::-webkit-inner-spin-button {
 }
 
 aside{
-    border: solid;
+    border-style: solid;
     border-color: #D8976B;
     border-radius:15px;
     margin-top: 25px;
