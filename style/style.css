@@ -446,6 +446,18 @@ aside p {
     margin: 35px;
 }
 
+.itemCategoria {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .bottomLeft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+
 #ofertalinha1, #ofertalinha2, #ofertalinha3{
     padding-top: 50px;
     padding-bottom: 20px;
