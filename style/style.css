@@ -15,6 +15,11 @@ header{
     padding: 10px 0 5px 0;
 }
 
+.tituloDescricao {
+    color: #000;
+    text-align: center;
+}
+
 .login, .carrinho {
     text-decoration: none;
     color: #000;
@@ -90,7 +95,8 @@ header{
 }
 
 #cor {
-    margin-left: 31px;
+    margin-top: 60px;
+    margin-left: 60px;
 }
 
 .container img {
@@ -111,6 +117,10 @@ header{
 
 #quantidade, #frete, .frete, .freteB, .cor, #cor, .tam, #tam, .quantidade {
     font-size: 1.5rem;
+}
+
+#cor, #tam, .frete {
+    margin-bottom: 60px;
 }
 
 .freteB{
@@ -449,6 +459,5 @@ aside p {
   }
 
 #ofertalinha1, #ofertalinha2, #ofertalinha3{
-    padding-top: 50px;
     padding-bottom: 20px;
 }
