@@ -34,6 +34,10 @@ header{
     margin-bottom: 45px;
 }
 
+.itemCategorias a {
+    text-decoration: none;
+}
+
 .carrosel, .categorias, .maisVendidos, .oferta{
 	margin: 0 30px 0 30px;
 }
@@ -312,9 +316,9 @@ h3{
 }
 
 .fh3 {
-font-weight: none;
-text-align: center;
-margin-bottom: 50px;
+    font-weight: none;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 h4{
@@ -436,17 +440,32 @@ aside p {
     margin: 35px;
 }
 
-.itemCategoria {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
-  
-  .bottomLeft {
+.bottomRight1, .bottomRight2, .bottomRight3 {
     position: absolute;
-    bottom: 8px;
-    left: 16px;
-  }
+    top: 780px;
+    font-size: 38px;
+    font-family: 'Island Moments', cursive;
+}
+
+.bottomRight2 a {
+    color: #000;
+}
+
+.bottomRight1 a, .bottomRight3 a{
+    color: white;
+}
+  
+.bottomRight1 {
+    right: 1025px;
+}
+
+.bottomRight2 {
+    right: 550px;
+}
+
+.bottomRight3 {
+    right: 75px;
+}
 
 #ofertalinha1, #ofertalinha2, #ofertalinha3{
     padding-top: 50px;
