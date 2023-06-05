@@ -253,6 +253,7 @@ h2, .price, .parcelarPrice {
 .img{
     border-radius: 50%;
     justify-self: center;
+    margin-right: 10px;
 }
 
 
@@ -261,8 +262,9 @@ p{
 }
 
 .itemOferta{
-    height:210px;
-    width:300px;
+    height:240px;
+    width:400px;
+    padding: 5px;
     background-color:white;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -423,7 +425,7 @@ aside p {
 
 .item{
     height:175px;
-    width:250px;
+    width: 300px;
     background-color:white;
     display: grid;
     grid-template-columns: 1fr 1fr;
