@@ -48,7 +48,7 @@
 			<a href="#" class="tamanho">40</a>
 			<a href="#" class="tamanho">&nbsp;&nbsp;outros tamanhos&nbsp;</a>
 			</p>
-			<p>
+			<p class="espfiltro">
 				<label for="modelo">Cor:</label>
 				<select name="modelo" id="modelo">
 				<option value="cor" hidden>Cor</option>
@@ -61,14 +61,15 @@
 				<option value="rosa">Rosa</option>
 				</select>
 			</p>
-			<h4>Preço</h4>
+			<h4 class="espfiltro">Preço</h4>
+			<div class="minmax">
 			<label for="minimo">Min:</label>
 			<input type="number" name="minimo" id="minimo">
 			<label for="maximo">Max:</label>
 			<input type="number" name="maximo" id="maximo">
-			
+			</div>
 			<div id="descontos">
-				<h4>Descontos</h4>
+				<h4 class="espfiltro">Descontos</h4>
 				<input type="radio" id="dez" name="desconto" value="ate10"><label for="dez">Até 10%</label><br>
 				<input type="radio" id="dez-vinte" name="desconto" value="10-20"><label for="dez-vinte">De 10% até 20%</label><br>
 				<input type="radio" id="vinte-trinta" name="desconto" value="20-30"><label for="vinte-trinta">De 20% até 30%</label><br>
