@@ -39,6 +39,10 @@ header{
     margin-bottom: 45px;
 }
 
+.carrosel, .categorias, .maisVendidos, .oferta{
+	margin: 0 30px 0 30px;
+}
+
 .imagemPrincipal img {
     margin-right: 20px;
 }
@@ -112,7 +116,7 @@ header{
 }
 
 #quantidade, #frete, .frete, .freteB, .cor, #cor, .tam, #tam, .quantidade {
-    font-size: 28px;
+    font-size: 1.5rem;
 }
 
 #cor, #tam, .frete {
@@ -230,8 +234,7 @@ h2, .price, .parcelarPrice {
 
 .oferta, .maisVendidos{
     display: grid;
-    padding-top: 50px;
-    padding-bottom: 20px;
+ 
 }
 
 .ofertaLinha, .maisVendidosLinha, .categorias{
@@ -245,7 +248,7 @@ h2, .price, .parcelarPrice {
     background-color:white;
     display: grid;
     align-items: center;
-    margin: 30px;
+    margin: 30px 30px 30px 0;
 }
 
 .itemMaisVendidos{
@@ -254,7 +257,7 @@ h2, .price, .parcelarPrice {
     background-color:white;
     display: grid;
     align-items: center;
-    margin: 30px;
+    margin: 30px 30px 30px 0;
 }
 
 .img{
@@ -264,7 +267,7 @@ h2, .price, .parcelarPrice {
 
 
 p{
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 .itemOferta{
@@ -277,7 +280,7 @@ p{
     border-radius:10px;
     border: solid;
     border-color: #D8976B;
-    margin: 30px;
+    margin: 30px 30px 30px 0;
 }
 
 .newsletter{
@@ -313,6 +316,13 @@ footer{
 
 h3{
     color: #FFB481;
+    font-size: 1.5rem;
+}
+
+.fh3 {
+font-weight: none;
+text-align: center;
+margin-bottom: 50px;
 }
 
 h4{
@@ -370,7 +380,7 @@ h4{
 }
 
 #minimo, #maximo{
-    width:40px;
+    width:75px;
 }
 
 input::-webkit-outer-spin-button,
@@ -392,7 +402,7 @@ aside p {
     text-align: center;
 }
 .tamanho{
-    margin: 3px;
+    
     margin-top: 4px;
     padding: 4px 8px;
     border: 1px solid;
