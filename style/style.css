@@ -310,6 +310,7 @@ h3{
 font-weight: none;
 text-align: center;
 margin-bottom: 50px;
+text-align: center;
 }
 
 h4{
@@ -433,6 +434,6 @@ aside p {
 }
 
 #ofertalinha1, #ofertalinha2, #ofertalinha3{
-    padding-top: 50px;
     padding-bottom: 20px;
+    padding-left: 30px;
 }
