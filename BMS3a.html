@@ -36,20 +36,20 @@
 		<div class="imgCompra">
             <div class="miniaturas">
                 <div>
-                    <img src="" alt="Miniatura 1">
+                    <img src="imagens/bolsaMiniaturaPaginaCompra.svg" alt="Miniatura 1">
                 </div>
                 <div>
-                    <img src="" alt="Miniatura 2">
+                    <img src="imagens/bolsaMiniaturaPaginaCompra.svg" alt="Miniatura 2">
                 </div>
                 <div>
-                    <img src="" alt="Miniatura 3">
+                    <img src="imagens/bolsaMiniaturaPaginaCompra.svg" alt="Miniatura 3">
                 </div>
                 <div>
-                    <img src="" alt="Miniatura 4">
+                    <img src="imagens/bolsaMiniaturaPaginaCompra.svg" alt="Miniatura 4">
                 </div>
             </div>
             <div class="imagemPrincipal">
-                <img src="" alt="Imagem principal">
+                <img src="imagens/bolsaPaginaCompra.svg" alt="Imagem principal">
             </div>
         </div>
         <div class="produtoCompra">
@@ -61,7 +61,7 @@
             <div class="selecao">
                 <form method="post" action="">
                     <p>
-                        <label for="cor">Cor: </label>
+                        <label for="cor" class="cor">Cor: </label>
                         <select name="cor" id="cor">
                             <option value="cor" hidden>Cor</option>
                             <option value="vermelho">Vermelho</option>
@@ -74,14 +74,14 @@
                         </select>
                     </p>
                     <p>
-                        <label for="tam">Número: </label>
+                        <label for="tam" class="tam">Número: </label>
                         <input type="number" id="tam" name="tam" min="32" max="42" value="32" maxlength="2" minlength="2">
                     </p>
                     <p>
                         <label for="frete" class="frete"><img src="imagens/delivery-truck.svg" alt="Frete">Consultar frete e formas de envio</label>
                     </p>
                     <p>
-                        <input type="number" id="frete" name="frete" maxlength="8" minlength="8" placeholder="00000-000">
+                        <input type="number" id="frete" name="frete" maxlength="8" minlength="8" placeholder="00000-000"><button for="frete" class="freteB">Calcular</button>
                     </p>
                         <input type="number" id="quantidade" name="quantidade" maxlength="2" minlength="1" placeholder="1"> <button for="quantidade" class="quantidade">Adicionar ao carrinho</button>
                 </form>
@@ -96,16 +96,16 @@
         <div class="similares">
             <h4>Produtos similares</h4>
             <div class="itemSimilar">
-                <img src="" alt="Imagem do produto" class="fotoItemSimilar">
+                <a href="#"><img src="imagens/bolsaProdutosSimilares.svg" alt="Imagem do produto" class="fotoItemSimilar">
                 <h5>Lorem ipsum dolor</h5>
                 <p>R$90,00</p>
-                <p>ou em 10x de R$9,00 sem juros</p>
+                <p>ou em 10x de R$9,00 sem juros</p></a>
             </div>
             <div class="itemSimilar">
-                <img src="" alt="Imagem do produto" class="fotoItemSimilar">
+                <a href="#"><img src="imagens/bolsaProdutosSimilares.svg" alt="Imagem do produto" class="fotoItemSimilar">
                 <h5>Lorem ipsum dolor</h5>
                 <p>R$90,00</p>
-                <p>ou em 10x de R$9,00 sem juros</p>
+                <p>ou em 10x de R$9,00 sem juros</p></a>
             </div>
         </div>
 	</main>
