@@ -42,16 +42,24 @@ header{
 
 .Bbusca{
     margin-right:10px;
+    border-style: none;
+    background-color: #fff;
 }
 
 #busca{
-    width: 400px;
+    border-style: none;
+    width: 30rem;
     margin-right: 5px;
+    border-radius: 10px;
+    height: 2.5rem;
+}
+
+#busca::placeholder {
+    color: #AC6738;
 }
 
 .busca {
-    display: flex;
-    flex: 1;
+    margin-right: 130px;
 }
 
 .categorias, .maisVendidos {
@@ -75,7 +83,7 @@ header{
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    margin-right: 25px;
+    margin-right: 75px;
     text-align: center;
 }
 
