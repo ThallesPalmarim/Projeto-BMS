@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
 
 body{
     font-family: Inter, sans-serif;
@@ -118,6 +119,10 @@ header{
     margin-left: 10px;
     padding: 2px 35px;
     background-color: #FFB481;
+}
+
+.navegation :first-child{
+    margin-left: 75px;
 }
 
 .navegation a{
@@ -297,10 +302,11 @@ footer{
 }
 
 h3{
-    color: #D8976B;
+    color: #FFB481;
     font-weight: none;
     font-size: 1.5rem;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 h4{
@@ -325,11 +331,36 @@ h4{
     grid-template-columns:1fr 3fr;
 }
 
+.espfiltro {
+    margin-top: 50px;
+}
+
+
 #modelo {
+    margin-right: 20px;
     width: 250px;
     height: 20px;
     float: right;
     text-align: center;
+}
+
+.minmax {
+    text-align: center;
+    background-color: #FFB481;
+    margin: 2px;
+    padding: 20px 0 40px 0;
+    border: 1px solid #000;
+    font-size: 1.25rem;
+}
+
+.minmax :first-child, .minmax :nth-child(2){
+    margin-left: 20px;
+    float: left;
+}
+
+.minmax :nth-child(3), .minmax :nth-child(4){
+    margin-right: 20px;
+    float: right;
 }
 
 #minimo, #maximo{
@@ -344,7 +375,7 @@ input::-webkit-inner-spin-button {
 
 aside{
     border-style: solid;
-    border-color: #D8976B;
+    border-color: #FFB481;
     border-radius:15px;
     margin-top: 25px;
     margin-left: 20px;
@@ -365,7 +396,7 @@ aside p {
 }
 
 .tamanho:hover{
-    background-color: #D8976B;
+    background-color: #FFB481;
     color: #FFF;
 }
 
@@ -394,7 +425,7 @@ aside p {
     align-items: center;
     border-radius:10px;
     border: solid;
-    border-color: #D8976B;
+    border-color: #FFB481;
     margin: 35px;
 }
 
