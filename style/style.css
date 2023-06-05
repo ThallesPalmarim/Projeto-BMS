@@ -273,10 +273,13 @@ footer{
 
 h3{
     color: #FFB481;
-    font-weight: none;
     font-size: 1.5rem;
-    text-align: center;
-    margin-bottom: 50px;
+}
+
+.fh3 {
+font-weight: none;
+text-align: center;
+margin-bottom: 50px;
 }
 
 h4{
@@ -356,7 +359,7 @@ aside p {
     text-align: center;
 }
 .tamanho{
-    margin: 3px;
+    
     margin-top: 4px;
     padding: 4px 8px;
     border: 1px solid;
